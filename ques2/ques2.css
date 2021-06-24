@@ -1,0 +1,8 @@
+.container{
+    display: flexbox;
+    justify-content: center;
+    border: 1px solid rgb(214, 39, 39);
+    margin: 2rem;
+    text-align: center;
+    background-color: gold;
+}
