@@ -1,5 +1,17 @@
 body{
-    background-color: gainsboro;
+     background-image: url('Images/backgroundImage.png');
+     background-size: cover;
+     min-height: 40rem;   
+}
+.welcome-div{
+    display: grid;
+    justify-content: center;
+    margin: 2rem 4rem 0rem 15rem;
+    text-align: center;
+}
+.welcome-div p{
+    color: rgb(14, 14, 15);
+    
 }
 .container{
     display: flexbox;
@@ -8,15 +20,29 @@ body{
     margin: 2rem;
     text-align: center;
 }
+.main-btn{
+    background-color: lightseagreen;
+    border-radius: 50%;
+    height: 4rem;
+    width: 25rem;
+    font-size: 1.75rem;
+    font-weight: 580;
+    margin: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+
 h1{
-    color: blue;
-    margin: 2rem;
+    color: rgb(8, 8, 8);
+    margin: 1rem 2rem;
     text-align: center;
+    font-size: 5rem;
 
 }
 span,p,input{
-    font-size: 1.5rem;
-    font-weight: 200;
+    font-size: 1.75rem;
+    font-weight: 500;
     margin: 1.2rem;
 }
 .sum-btn{

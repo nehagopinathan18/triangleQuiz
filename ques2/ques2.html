@@ -4,15 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ques 2</title>
+    <title>Triangle Quiz</title>
 </head>
 <link rel="stylesheet" href="/ques2/ques2.css">
 <body>
+    <h1>TRIANGLE QUIZ</h1>
     <div class="container">
-        <span>Ques2.</span>
-        <p>You are given three angles, tell us whether it is an obtuse triangle or not?</p>
+        <form>
+            <p class="ques">1. If a triangle has angles 20<sup>o</sup>, 120<sup>o</sup>, 40<sup>o</sup>. Is it an obtuse triangle?</p>
+            <ol>
+                <ul><input type="radio" name="ques1" value="yes">yes</input></ul>
+                <ul><input type="radio" name="ques1" value="no">no</input></ul>
+            </ol>
+            
+            <p class="ques">2. If a triangle has angles 50<sup>o</sup>, 90<sup>o</sup>, 40<sup>o</sup>. Is it an right triangle?</p>
+            <ol>
+                <ul><input type="radio" name="ques2" value="yes">yes</input></ul>
+                <ul><input type="radio" name="ques2" value="no">no</input></ul>
+            </ol>
+            
+            <p class="ques">3. If a triangle has angles 56<sup>o</sup>, 50<sup>o</sup>, 74<sup>o</sup>. Is it an acute triangle?</p>
+            <ol>
+                <ul><input type="radio" name="ques3" value="yes">yes</input></ul>
+                <ul><input type="radio" name="ques3" value="no">no</input></ul>
+            </ol>
+
+            <p class="ques">Ques4. You are given two angles 45<sup>o</sup> and 60<sup>o</sup>, what is measure of third angle?</p>
+            <ol>
+                <ul><input type="radio" name="Ques4" value="56">56</input></ul>
+                <ul><input type="radio"  name="Ques4" value="5o">50</input></ul>
+                <ul><input type="radio" name="Ques4" value="75">75</input></ul>
+            </ol>
+        </form>
+       
+        <button class="submit" >Submit</button>
+        
+        <div  class="output"></div>
+        <button class="sum-btn"><a href="../index.html">Back</a></button>
+        
     </div>
-    <a class="sum-btn" href="./ques2/ques2.html">Next</a>
+   
     <script src="./ques2.js"></script>
 </body>
 </html>
