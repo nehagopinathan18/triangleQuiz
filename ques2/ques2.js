@@ -23,6 +23,7 @@ form.addEventListener('click', (e) => {
             console.log(score);
         } else {
             ques[index].style.color = "red";
+            score--;
         }
         index++;
         console.log(value);
