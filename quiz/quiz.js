@@ -2,7 +2,8 @@ const correctAns = [
     "yes",
     "yes",
     "yes",
-    "75"
+    "75",
+    "option2"
 ];
 const ques = document.querySelectorAll('.ques');
 const form1 = document.querySelector('form');
